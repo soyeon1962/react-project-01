@@ -1,0 +1,44 @@
+[
+  {
+    "name" : "SUNLIGHT DANCES ON PAGES",
+    "description" : "high-quality design for \ncapturing fleeting moments.",
+    "originPrice" : "297,000",
+    "discountPrice" : "237,600",
+    "imageUrl" : "/assets/images/product_01.png"
+  },
+  {
+    "name" : "COLORS MEET WHERE SHADOWS FALL",
+    "description" : "evoking emotions with \nvivid, serene contrasts.",
+    "originPrice" : "397,000",
+    "discountPrice" : "297,000",
+    "imageUrl" : "/assets/images/product_02.jpg"
+  },
+  {
+    "name" : "A SCENT THAT LINGERS",
+    "description" : "unveiling elegance in \nmonochromatic stillness.",
+    "originPrice" : "397,000",
+    "discountPrice" : "297,000",
+    "imageUrl" : "/assets/images/product_03.jpg"
+  },
+  {
+    "name" : "HER SILHOUETTE HOLDS STORIES",
+    "description" : "high-quality design for \nsubtle, graceful intimacy.",
+    "originPrice" : "397,000",
+    "discountPrice" : "297,000",
+    "imageUrl" : "/assets/images/product_04.jpg"
+  },
+  {
+    "name" : "EYES LOST IN SILENCE",
+    "description" : "where depth and yearning \nfind their true form.",
+    "originPrice" : "397,000",
+    "discountPrice" : "297,000",
+    "imageUrl" : "/assets/images/product_05.jpg"
+  },
+  {
+    "name" : "EVERY MOMENT IS A FRESH BEGINNING",
+    "description" : "high-quality design for \nstirring customer emotions.",
+    "originPrice" : "397,000",
+    "discountPrice" : "297,000",
+    "imageUrl" : "/assets/images/product_06.jpg"
+  }
+]

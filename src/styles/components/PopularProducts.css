@@ -1,0 +1,98 @@
+.best-inner{
+  padding-bottom: 92px;
+  width: 100%;
+  background-color: #EFEEE9;
+}
+
+.best-sellers.best-sellers-desktop .best-inner{
+  padding-bottom: 87px;
+}
+
+.best-sellers.best-sellers-large .best-inner{
+  padding-bottom: 88px;
+}
+
+.best-sellers.best-sellers-tablet .best-inner{
+  padding-bottom: 20px;
+}
+
+.best-sellers.best-sellers-mobile .best-inner{
+  padding-bottom: 0;
+}
+
+.best-inner .title-wrap{
+  height: 246px;
+  width: 100%;
+  text-align: center;
+  padding: 130px 0 40px 0;
+}
+
+.best-sellers.best-sellers-desktop .title-wrap{
+  height: 237px;
+}
+
+.best-sellers.best-sellers-large .title-wrap{
+  height: 245px;
+}
+
+.best-sellers.best-sellers-tablet .title-wrap{
+  height: 107px;
+  padding: 40px 0 20px 0;
+}
+
+.best-sellers.best-sellers-tablet .title-wrap h4{
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.best-sellers.best-sellers-tablet .title-wrap h6{
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.best-sellers.best-sellers-mobile .title-wrap{
+  height: 103px;
+  padding: 40px 0 20px 0;
+}
+
+.best-sellers.best-sellers-mobile .title-wrap h4{
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.best-sellers.best-sellers-mobile .title-wrap h6{
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.best-inner .title-wrap h4{
+  font-size: 26px;
+  line-height: 26px;
+  margin-bottom: 8px;
+  color: #474641;
+}
+
+.best-inner .title-wrap h6{
+  font-size: 14px;
+  line-height: 42px;
+  color: #474641;
+}
+
+.best-inner .product-wrap{
+  padding: 0 39px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 15px;
+}
+
+.best-sellers.best-sellers-tablet .best-inner .product-wrap{
+  padding: 0;
+  gap: 20px 7px;
+}
+
+.best-sellers.best-sellers-mobile .best-inner .product-wrap{
+  padding: 0;
+  gap: 0;
+}

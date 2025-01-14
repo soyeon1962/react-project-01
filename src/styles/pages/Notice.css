@@ -1,0 +1,157 @@
+.sub-page{
+  background-color: #EFEEE9;
+  padding: 40px;
+}
+
+.sub-page-inner{
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 4%;
+}
+
+.sub-page-menu-wrap{
+  flex: 0 0 110px;
+  width: 110px;
+}
+
+.notice-wrap{
+  flex: 1;
+}
+
+.notice-wrap h6{
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #787878;
+}
+
+table{
+  width: 100%;
+  text-align: center;
+}
+
+thead tr th{
+  background-color: #E5E4E0;
+  padding: 12px 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #787878;
+}
+
+tbody tr td{
+  padding: 14px 12px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #474641;
+  text-wrap: nowrap;
+}
+
+tbody tr{
+  border-bottom: 1px solid #D2D2D2;
+}
+
+tbody tr td:nth-child(2){
+  text-align: left;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+tbody tr td:nth-child(3), tbody tr td:nth-child(4){
+  letter-spacing: -.5px;
+}
+
+tbody tr td svg{
+  font-size: 17px;
+  vertical-align: middle;
+}
+
+.col1{width: 4.2168vw;}
+.col2{width: auto;}
+.col3{width: 10.2409vw;}
+.col4{width: 6.0241vw;}
+.col5{width: 4.8192vw;}
+
+.pagination-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 40px 0;
+}
+
+.pagination-wrap svg{
+  font-size: 19px;
+  color: #47464150;
+  margin: 0 10px;
+}
+
+.pagination-wrap svg.active{
+  color: #474641;
+}
+
+.pagination-wrap .num-wrap{
+  display: flex;
+}
+
+.pagination-wrap .num{
+  width: 27px;
+  height: 27px;
+  color: #47464150;
+  border-radius: 1px;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  transition: .3s;
+}
+
+.pagination-wrap .num.active{
+  border: 1px solid #474641;
+  color: #474641;
+}
+
+.sub-page.responsive{
+  padding: 0;
+}
+
+.sub-page.responsive .sub-page-inner{
+  flex-direction: column;
+  gap: unset;
+}
+
+.responsive .sub-page-menu-wrap{
+  flex: unset;
+  width: 100%;
+}
+
+.responsive .notice-wrap{
+  padding: 0 16px;
+}
+
+.responsive .notice-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12px 0;
+  border-bottom: 1px solid #D2D2D2;
+  width: calc(100vw - 32px);
+  gap: 14px 8px;
+}
+
+.responsive tbody tr td{
+  padding: 0;
+  font-size: 14px;
+}
+
+.responsive tbody tr td:nth-child(1){
+  display: none;
+}
+
+.responsive tbody tr td:nth-child(2){
+  width: 100%;
+}
+
+.responsive .col2{width: 100%;}

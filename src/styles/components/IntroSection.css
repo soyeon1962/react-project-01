@@ -1,0 +1,127 @@
+.intro-section{
+  width: 100%;
+  height: calc(32.900207900208vw + 434px);
+  background-color: #EFEEE9;
+}
+
+.intro-section.intro-mobile {
+  height: calc(38.852672751vw + 232px);
+}
+
+.intro-section .title-wrap{
+  height: 187px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.intro-section.intro-mobile .title-wrap{
+  height: 113px;
+  justify-content: flex-end;
+}
+
+.intro-section.intro-mobile .title-wrap h4{
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.intro-section.intro-mobile .title-wrap h6{
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 20px;
+}
+
+.title-wrap h4{
+  font-family: 'Aboreto';
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.title-wrap h6{
+  font-family: 'Aboreto';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 42px;
+}
+
+.intro-section .product-wrap{
+  width: 100%;
+  display: flex;
+}
+
+.intro-section.intro-mobile .product-wrap{
+  padding: 0 20px;
+}
+
+.product-wrap .product-box{
+  flex: 1;
+}
+
+.product-box .img-wrap{
+  height: 32.900207900208vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-section.intro-mobile .product-wrap .img-wrap{
+  height: 38.852672751vw;
+}
+
+.product-box img{
+  width: 100%;
+  transition: .3s;
+}
+
+.product-box:hover img{
+  transform: scale(1.1);
+}
+
+.product-box span{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Aboreto';
+  font-weight: 400;
+  color: #EFEEE9;
+  text-wrap: nowrap;
+}
+
+.product-box.product-desktop span{
+  font-size: 24px;
+  bottom: 35px;
+}
+
+.product-box.product-tablet span{
+  font-size: 14px;
+  bottom: 18px;
+}
+
+.product-box .text-wrap{
+  height: 97px;
+  border-bottom: 1px solid #D2D2D2;
+  border-right: 1px solid #D2D2D2;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #474641;
+}
+
+.intro-section.intro-mobile .product-wrap .text-wrap{
+  border: none;
+}
+
+.product-box.product-desktop .text-wrap{
+  line-height: 22px;
+}
+
+.product-box.product-tablet .text-wrap{
+  line-height: 16px;
+}
+
+.product-box:nth-child(3) .text-wrap{
+  border-right: unset;
+}

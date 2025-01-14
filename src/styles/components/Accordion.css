@@ -1,0 +1,41 @@
+.accordion-inner{
+  width: 100%;
+  padding: 125px 0;
+  background-color: #E5E4E0;
+  text-align: center;
+}
+
+.accordion-inner h2{
+  font-size: 34px;
+  line-height: 40px;
+  margin-bottom: 23px;
+  font-family: 'Aboreto';
+  font-weight: 400;
+  color: #474641;
+}
+
+.accordion-inner span{
+  font-size: 14px;
+  line-height: 23px;
+  padding-bottom: 60px;
+  font-family: 'Aboreto';
+  font-size: 400;
+  color: #474641;
+  display: block;
+}
+
+.accordion-tablet .accordion-inner{
+  padding: 65px 25px;
+}
+
+.accordion-tablet .accordion-inner h2{
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 13px;
+}
+
+.accordion-tablet .accordion-inner span{
+  font-size: 12px;
+  line-height: 17px;
+  padding-bottom: 35px;
+}

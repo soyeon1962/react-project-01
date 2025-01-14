@@ -1,0 +1,25 @@
+.gap-image{
+  width: 100%;
+  overflow: hidden;
+}
+
+.gap-image img{
+  width: 100%;
+  height: inherit;
+}
+
+.gap-image-desktop{
+  height: 446px;
+}
+
+.gap-image-tablet{
+  height: 404px;
+}
+
+.gap-image-large{
+  height: 399px;
+}
+
+.gap-image-mobile{
+  height: 402px;
+}
